@@ -6,6 +6,7 @@ TagManager:
   tags:
   - destroywall
   - bullit
+  - enemies
   layers:
   - Default
   - TransparentFX

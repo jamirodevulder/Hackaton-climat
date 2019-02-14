@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 54253653634694336}
   m_Layer: 0
   m_Name: truck 1
-  m_TagString: Untagged
+  m_TagString: enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1357,7 +1357,7 @@ MonoBehaviour:
   speed: 10
   healt: 100
   healtbar: {fileID: 4602467938674230}
-  explosion: {fileID: 4000011196859318, guid: 6747b1742d70743a8aff8594e708b2f7, type: 2}
+  explosion: {fileID: 400000, guid: e0dc4d47bced6d54ab1461804114b5d0, type: 2}
 --- !u!136 &136006441626110128
 CapsuleCollider:
   m_ObjectHideFlags: 1

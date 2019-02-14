@@ -7,6 +7,10 @@ public class carAI : MonoBehaviour {
     public int healt = 100;
     public Transform healtbar;
     public Transform explosion;
+    public Transform[] buildings;
+    public Transform[] spawnpoints;
+    private bool wait = false;
+    
 	// Use this for initialization
 	void Start () {
 		
@@ -27,9 +31,23 @@ public class carAI : MonoBehaviour {
             healt -= 50;
             if(healt <= 0)
             {
-                Instantiate(explosion, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
-                Destroy(this.gameObject);
+
+
+                if (!wait)
+                {
+                    wait = true;
+                    int number = Random.Range(0, 3);
+                    Instantiate(buildings[number], new Vector3(spawnpoints[GunController.score].transform.position.x, spawnpoints[GunController.score].transform.position.y, spawnpoints[GunController.score].transform.position.z), Quaternion.identity);
+                    GunController.score = GunController.score + 1;
+                    wait = false;
+                    Instantiate(explosion, new Vector3(transform.position.x, transform.position.y + 1f, transform.position.z), Quaternion.identity);
+                    Destroy(this.gameObject);
+                }
+                wait = false;
             }
+
+         
         }
     }
+    
 }

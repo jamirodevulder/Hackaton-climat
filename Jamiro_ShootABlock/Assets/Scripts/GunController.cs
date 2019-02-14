@@ -6,7 +6,7 @@ using System.Collections;
 
 [RequireComponent(typeof(AudioSource))]
 public class GunController : MonoBehaviour {
-    
+    public static int score; 
     public float rotationspeed = 1f;
     private bool CanShoot = false;
     public GameObject bulletPrefab;

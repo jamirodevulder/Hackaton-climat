@@ -28,7 +28,7 @@ public class carspawner : MonoBehaviour
             int randomcar = 0;
             yield return new WaitForSeconds(firstcarspawn);
             firstcarspawn = 0;
-            Instantiate(enemies[0], new Vector3(transform.position.x, 1.8f, transform.position.z), Quaternion.identity);
+            Instantiate(enemies[randomcar], new Vector3(transform.position.x, 1.8f, transform.position.z), Quaternion.identity);
             yield return new WaitForSeconds(Random.Range(mininumTime, maxTime));
         }
     }
