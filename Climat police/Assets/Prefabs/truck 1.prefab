@@ -1358,6 +1358,23 @@ MonoBehaviour:
   healt: 100
   healtbar: {fileID: 4602467938674230}
   explosion: {fileID: 400000, guid: e0dc4d47bced6d54ab1461804114b5d0, type: 2}
+  buildings:
+  - {fileID: 4151744878552280, guid: 94dbf52e6bdc4c54780b61923599b9d5, type: 2}
+  - {fileID: 4441849758299552, guid: c8226d38c6f9cb04d82f87d9d8608563, type: 2}
+  - {fileID: 4870036891305360, guid: 4a1ed8fa9a4ddf8458710195994279d0, type: 2}
+  spawnpoints:
+  - {fileID: 4529808789757908, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4717427400171532, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4228885881381978, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4535707438959350, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4085780226610086, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4670561269714684, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4990711675821738, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4816999863062296, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4278162918342212, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4423113356098272, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4789168152981622, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
+  - {fileID: 4474962394882632, guid: a257cab98b4cda742bce73faa96f25c7, type: 2}
 --- !u!136 &136006441626110128
 CapsuleCollider:
   m_ObjectHideFlags: 1

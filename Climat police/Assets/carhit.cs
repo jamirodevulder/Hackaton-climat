@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class carhit : MonoBehaviour {
     private int count = 0;
-    public ParticleSystem[] smog = new ParticleSystem[3];
+    [SerializeField]private ParticleSystem[] smog = new ParticleSystem[3];
     private bool wait = true;
     // Use this for initialization
     void Start () {
